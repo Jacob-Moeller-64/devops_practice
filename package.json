@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "DevSecOps pipeline demonstration",
   "main": "app.js",
+  "overrides": {
+    "cross-spawn": "7.0.6",
+    "glob": "11.1.0"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "jest --coverage",
